@@ -9,3 +9,15 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+/* app/assets/stylesheets/application.css */
+/* Include your Semantic UI CSS here if you want it in the same file */
+@import url('https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css');
+
+/* Your custom styles */
+.chatbox {
+  height: 450px;
+}
+.messages {
+  overflow: auto;
+}
